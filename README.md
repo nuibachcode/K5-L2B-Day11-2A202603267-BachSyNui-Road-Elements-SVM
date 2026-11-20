@@ -2,6 +2,15 @@
 
 > Lab cá nhân, AI20K K5. Bạn gán nhãn phần tử đường theo guideline Road v1.0 trên CVAT của lớp: 12 ảnh camera trước BDD100K (A01–A12) và 8 ảnh fisheye WoodScape (B01–B08) là bắt buộc. Sau đó bạn kiểm lô của một bạn khác bằng Phiếu QC 1 và quyết định Release, Hold hoặc Rework. Nếu xong sớm, làm thêm ảnh A13–A16 và B09–B12 để lấy điểm thưởng. Không đưa ảnh lên app.cvat.ai.
 
+## Link nộp dữ liệu (Google Drive)
+
+- **Google Drive Folder**: [Link Google Drive nộp bài](https://drive.google.com/drive/folders/1OgZgj24GCLK6vlS6UCx4SdBHbuD8UovH?usp=drive_link)
+  - `BachSyNui-front.zip`
+  - `BachSyNui-fisheye.zip`
+  - `BachSyNui-manifest.json`
+
+---
+
 | M | Giờ | Việc | Lệnh kiểm tra |
 | --- | --- | --- | --- |
 | M0 | 13:00 | Điểm danh. Kiểm repo, gói 28 ảnh trong `data/`, đăng nhập CVAT và guideline đã đọc. | `PYTHONPATH=src python3 -m road_lab.road_check selftest` |

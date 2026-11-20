@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "BachSyNui",
+  "revision": 1,
+  "created_at": "2026-11-20T15:48:54+00:00",
+  "files": [
+    {
+      "file": "BachSyNui-front.zip",
+      "bytes": 57872,
+      "sha256": "0a5ba3ace03384e508c08d276e2f11469406e9be587493093e0650b1d55bf5c4",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 9,
+        "drivable": 27,
+        "lane": 32,
+        "road_curb": 9,
+        "traffic_light": 42,
+        "traffic_sign": 29
+      }
+    },
+    {
+      "file": "BachSyNui-fisheye.zip",
+      "bytes": 20988,
+      "sha256": "da344de5b2f2d4a943db52cacfb8be60bfb90abd5accf7688019fe7cfb91dc7a",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 10,
+        "drivable": 1,
+        "lane": 11,
+        "road_curb": 5,
+        "traffic_light": 4,
+        "traffic_sign": 3
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 13,
+    "chính": 10,
+    "nhẹ": 1
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
